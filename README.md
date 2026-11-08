@@ -34,3 +34,12 @@ D3 zoom documentation: https://d3js.org/d3-zoom
 ## Limitations
 
 Mouse/touch navigation supported by D3. Drawing placement currently uses pointer clicks; keyboard drawing and annotation editing are future improvements. No live data feed is included.
+
+## Published demo
+
+https://irenepeidev-wq.github.io/d3-candlestick-chart/
+
+## Browser verification
+
+Run npm exec playwright test (requires Microsoft Edge). Covers indicators, drawing persistence, undo, crosshair OHLCV and zoom.
+
